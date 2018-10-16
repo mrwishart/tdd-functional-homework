@@ -43,3 +43,7 @@ end
 def cube_volume(length_of_side)
   return length_of_side ** 3
 end
+
+def spherevolume( radius )
+  return radius**3 * 4/3 * 3.14159
+end
