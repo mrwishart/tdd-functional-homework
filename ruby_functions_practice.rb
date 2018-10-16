@@ -21,3 +21,7 @@ end
 def length_of_string(t_string)
   return t_string.length()
 end
+
+def join_string(firststring, secondstring)
+  return firststring + secondstring
+end
