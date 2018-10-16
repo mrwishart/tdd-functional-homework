@@ -1,3 +1,5 @@
+include Math
+
 def return_10()
   return 10
 end
@@ -45,9 +47,9 @@ def cube_volume(length_of_side)
 end
 
 def spherevolume( radius )
-  return radius**3 * 4/3 * 3.14159
+  return (radius**3).to_f * 4/3 * PI
 end
 
 def f_to_c( temperature )
-  return ((temperature-32)*5/9).to_f.round(2)
+  return ((temperature-32).to_f*5/9).round(2)
 end
