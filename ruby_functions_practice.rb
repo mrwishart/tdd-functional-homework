@@ -34,3 +34,8 @@ def number_to_full_month_name(number)
   month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
   return month[number - 1]
 end
+
+def number_to_short_month_name(number)
+  month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+  return month[number - 1]
+end
