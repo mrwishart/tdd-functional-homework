@@ -1,6 +1,6 @@
 # TDD/Function Practice Homework
 
-Repo for Week 1, Day 2 of Codeclan Homework. Involves creating methods to pass a series of test in Ruby. Can be run your console:
+Repo for Week 1, Day 2 of Codeclan Homework. Involves creating methods to pass a series of test in Ruby. Can be ran in console using its Ruby interpreter:
 
 ```bash
   #terminal
